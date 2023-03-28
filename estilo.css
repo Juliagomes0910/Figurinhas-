@@ -1,0 +1,79 @@
+/* DUCUMENTO CSS */
+
+body { 
+	margin:0;
+	padding:0;
+	border:0;
+	font-family: sans-serif;
+	background-color: #e3b696;
+}
+header { 
+   		background-color:#783c00;
+   		height: 100px;
+   		padding-top: 25px;
+   		color:#f0d9c1;
+   		text-align: center;
+
+}
+
+h3 {
+	font-family:oblique
+}
+
+main{
+	margin:0;
+	padding:0;
+	display: flex;
+	justify-content: space-around;
+	padding:20px;
+	flex-wrap: wrap;
+	text-align: center;
+}
+
+.box {
+	 width:300px;
+	 height: 450px;
+	 background-color: #783c00;
+	 border-radius: 10px;
+	 padding:10px;
+	 text-align: center;
+	 margin:10px ;
+	 color: #f0d9c1;
+	 border-style : inset;
+}
+.box: hover{
+     box-shadow: 10px 10px 15px #a4a4a4;
+}
+
+.box h2{margin:0 0 10px 0;
+     padding: 0;
+}
+
+.box figure{ width: 250px;
+	 height: 200px;
+	 padding-top: 10px;
+	 text-align: center;
+	 margin: auto;
+	}
+
+.box p {
+    text-align: justify;
+    margin-top: 90px;
+    }
+
+.marca {
+	width: 50px;
+	position: relative;
+	left: 0px;
+	top:-40px;
+	z-index: 1;
+	display: block;
+}
+
+footer { 
+		background-color: #cf97a0;
+		height: 70px;
+		padding-top: 10px;
+		color:darkred;
+		text-align: center;
+}
